@@ -5,50 +5,6 @@ Le meilleur groupe de tous les temps. 🐬
 
 Git est un système de gestion de versions qui permet de suivre l'évolution de ton code, de revenir en arrière si tu fais une erreur, et de collaborer efficacement avec d'autres développeurs. Il te permet de garder une trace de chaque modification faite sur ton projet, et de savoir exactement qui a changé quoi et quand. Avec Git, tu peux aussi créer des *branches* pour travailler sur des nouvelles fonctionnalités sans perturber le code principal, et plus tard, tu peux les fusionner quand elles sont prêtes. C'est super pratique quand plusieurs personnes bossent sur le même projet. En plus, Git permet de gérer les conflits de manière assez simple si deux développeurs modifient la même partie du code en même temps. Bref, Git rend le travail en équipe beaucoup plus fluide et sécurisé, et c'est devenu un standard dans le développement moderne.
 
-## Table des matières
-1. [Qu'est-ce que Git ?](#qu-est-ce-que-git)
-2. [Initialiser un Dépôt Git](#initialiser-un-dépôt-git)
-3. [Les Concepts de Base](#les-concepts-de-base)
-    - Dépôt (Repo)
-    - Commit
-    - Branche
-4. [Travailler avec Git](#travailler-avec-git)
-    - Ajouter des Fichiers
-    - Faire un Commit
-    - Travailler avec des Branches
-    - Fusionner des Branches
-    - Gérer les Conflits de Fusion
-5. [Collaborer avec Git](#collaborer-avec-git)
-    - Cloner un Dépôt Distant
-    - Pousser et Tirer (Push & Pull)
-    - Résoudre les Conflits
-6. [Bonnes Pratiques Git](#bonnes-pratiques-git)
-    - Messages de Commit
-    - Structuration des Branches
-    - Gestion des Conflits
-7. [Commandes Git Essentielles](#commandes-git-essentielles)
-
----
-
-## Qu'est-ce que Git ?
-
-Git est un système de gestion de versions décentralisé, permettant de suivre les changements dans un projet, d'enregistrer différentes versions et de collaborer de manière fluide entre plusieurs développeurs. Contrairement à un système centralisé, Git permet à chaque développeur d'avoir une copie complète du projet avec son historique, ce qui rend le système extrêmement rapide et fiable.
-
-Git a été créé par Linus Torvalds en 2005 pour gérer le développement du noyau Linux. Depuis, il est devenu l'outil de contrôle de version le plus utilisé au monde.
-
----
-
-## Initialiser un Dépôt Git
-
-Pour commencer à utiliser Git, il faut initialiser un dépôt local dans ton projet. Voici comment faire :
-
-```bash
-# Se placer dans le répertoire du projet
-cd /chemin/vers/ton/projet
-
-# Initialiser un dépôt Git
-git init
-
 ## Commandes Git importantes 📌
 
 | **Commande**                            | **Description**                                                     | **Côté**         |
