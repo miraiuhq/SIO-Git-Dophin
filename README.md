@@ -5,6 +5,14 @@ Le meilleur groupe de tous les temps. 🐬
 
 Git est un système de gestion de versions qui permet de suivre l'évolution de ton code, de revenir en arrière si tu fais une erreur, et de collaborer efficacement avec d'autres développeurs. Il te permet de garder une trace de chaque modification faite sur ton projet, et de savoir exactement qui a changé quoi et quand. Avec Git, tu peux aussi créer des *branches* pour travailler sur des nouvelles fonctionnalités sans perturber le code principal, et plus tard, tu peux les fusionner quand elles sont prêtes. C'est super pratique quand plusieurs personnes bossent sur le même projet. En plus, Git permet de gérer les conflits de manière assez simple si deux développeurs modifient la même partie du code en même temps. Bref, Git rend le travail en équipe beaucoup plus fluide et sécurisé, et c'est devenu un standard dans le développement moderne.
 
+## repo/commit/branche
+
+Un dépôt (ou repository en anglais) est un espace où Git conserve tous les fichiers d'un projet ainsi que son historique. Cela inclut l'intégralité du code source et les différentes versions des fichiers à travers les commits. Un dépôt peut être local (sur ton ordinateur) ou distant (sur une plateforme comme GitHub, GitLab, etc.).
+
+Un commit est un enregistrement d'une série de modifications dans un dépôt. Il capture l'état actuel des fichiers à un instant donné, avec un message de description. Chaque commit possède un identifiant unique, ce qui permet de retracer l'historique des changements dans le projet. Un commit te permet aussi de revenir à un état antérieur si nécessaire.
+
+Une branche est une ligne de développement indépendante dans un dépôt Git. Elle permet de travailler sur des fonctionnalités ou corrections sans affecter la branche principale (souvent `main` ou `master`). Une branche peut être fusionnée avec d'autres branches une fois les modifications terminées.
+
 ## Commandes Git importantes 📌
 
 | **Commande**                            | **Description**                                                     | **Côté**         |
